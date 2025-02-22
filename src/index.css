@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+/* Add fallback background colors */
+.bg-fallback {
+  background-color: #f0f0f0;
+}
+
+/* Ensure images have minimum dimensions */
+img {
+  min-width: 1px;
+  min-height: 1px;
+}
+
+/* Improve text visibility */
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+} 
