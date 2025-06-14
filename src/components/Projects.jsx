@@ -7,6 +7,23 @@ import ContactInfo from './ContactInfo';
 const projects = [
   {
     id: 1,
+    title: "Manglanam Naturals",
+    subtitle: "Primium Spice Emporium",
+    description: "Discover the world premium spices at Manglanam Naturals. 'I Bilive in Real Flavor - No Artificial Flavors, No Preservatives, No Additives.'",
+    image: "/manglanam.png",
+    technologies: ["React", "Node.js", "MongoDB", "UI/UX", "E-commerce"],
+    category: "Web Development",
+    link: "https://manglanam.com",
+    github: "https://github.com/Rishabhostwal48/Manglanam_Naturals",
+    features: [
+      "Responsive Design",
+      "User Authentication",
+      "Real-time Updates",
+      "Image Processing"
+    ],
+    status: "Live"
+  },{
+    id: 2,
     title: "StickMobi",
     subtitle: "Photography Tools Platform",
     description: "Professional photography and videography tools for creators on the move",
@@ -24,7 +41,7 @@ const projects = [
     status: "Completed"
   },
   {
-    id: 2,
+    id: 3,
     title: "Fashion Bazaar",
     subtitle: "E-commerce Platform",
     description: "A modern fashion e-commerce experience with advanced features",
@@ -42,7 +59,7 @@ const projects = [
     status: "In Progress"
   },
   {
-    id: 3,
+    id: 4,
     title: "EcoConnect",
     subtitle: "Environmental Platform",
     description: "Connecting eco-conscious individuals and organizations",

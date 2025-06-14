@@ -8,6 +8,14 @@ import Navbar from './Navbar';
 const projects = [
   {
     id: 1,
+    title: "Manglanam Naturals: Premium Spice Emporium",
+    description: "Discover the world premium spices at Manglanam Naturals. 'I Bilive in Real Flavor - No Artificial Flavors, No Preservatives, No Additives.'",
+    image: "/manglanam.png",
+    technologies: ["ReactJs", "Mongodb","NodeJs", "UI/UX", "E-commerce","Next.js"],
+    link: "https://manglanam.com/"
+  },
+  {
+    id: 2,
     title: "StickMobi: Empowering Portable Creativity",
     description: "Professional photography and videography tools for creators on the move",
     image: "/stickmobi-preview.jpg",
@@ -15,7 +23,7 @@ const projects = [
     link: "https://ht0zr9u1uqq5o48j7.lite.vusercontent.net/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Fashion Bazaar",
     description: "A demo website showcasing modern fashion e-commerce experience",
     image: "/fashion-bazaar-preview.jpg",
@@ -23,7 +31,7 @@ const projects = [
     link: "#"
   },
   {
-    id: 3,
+    id: 4,
     title: "EcoConnect",
     description: "Empowering Change, Building a Sustainable Future Together",
     image: "/eco-connect-preview.jpg",
